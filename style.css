@@ -1,0 +1,79 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background: #222;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* ✅ checkbox pura LEFT */
+li input[type="checkbox"] {
+  transform: scale(1.3);
+  margin-left: -95px;
+}
+
+/* ✅ task text */
+li span {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* ✅ delete button pura RIGHT */
+li button {
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background: #ff1a1a;
+}
+
+/* filters */
+.filters {
+  margin: 15px 0;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 5px 10px;
+}
